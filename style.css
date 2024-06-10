@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    font: bold;
+    font-size: large;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: teal;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.owner{
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+.bg{
+    background-image: url("Assets/office.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-signup{
+    background-color: rgb(245, 90, 34);
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 30px;
+    color: wheat;
+}
+.btn-signup:hover{
+    border: none;
+    background: none;
+    box-shadow: 2px solid  rgb(255, 255, 255);
+}
+
+.fa{
+    padding-right: 15px;
+    color: gray;
+    font-size: 20px;
+}
+
+.image{
+width:30%;
+height: 20%;
+}
+
+
+.last{
+    padding: none !important;
+    color: white;
+    background-color: gray;
+}
